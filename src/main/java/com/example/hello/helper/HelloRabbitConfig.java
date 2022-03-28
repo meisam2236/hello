@@ -6,11 +6,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class Config {
-    @Value("${rabbitapi.queue}")
-    String queue_name;
-    @Bean
-    public Queue hello() {
-        return new Queue(queue_name);
-    }
+public class HelloRabbitConfig {
+//    @Value("${rabbitapi.queue}")
+//    String queue_name;
+//    @Bean
+//    public Queue hello() {
+//        return new Queue(queue_name);
+//    }
 }
